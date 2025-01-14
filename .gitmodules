@@ -14,3 +14,6 @@
 	path = MuNixSystem
 	url = git@github.com:mfwolffe/MuNixSystem.git
 
+[submodule "MuNixFlakeContainer"]
+	path = MuNixFlakeContainer
+	url = git@github.com:mfwolffe/MuNixFlakeContainer.git
