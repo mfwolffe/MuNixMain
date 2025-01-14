@@ -12,6 +12,7 @@ With technologies like Nix becoming more commonplace I figured this little side 
 1. `archiso` (& setting up custom local repos for packages not from std arch repos)
 1. Reproducible Nix system images
 1. Git submodules :( (I was spurned from forking a promising repo for thesis bc of submodule confusion)
+1. Migrating existing repositories to become submodules
 1. Docker in general (I've had to spinup my fair share, but never configure)
 1. Ad hoc scripts to try to ensure {device,shell,language,architecture,etc} agnosticism
 1. More practice with bash techniques I do not use as often
