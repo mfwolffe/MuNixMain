@@ -2,8 +2,15 @@
 
 set -x
 
+# usage function for this one because I have it
+# ask for clone method
+Usage() {
+  cat <<EOF
+  Usage: ./add-existing-module [module-name] [ssh|https]
+EOF
+}
 if [ ! $# -eq 2 ]; then 
-  printf "\nmissing new module name\n" >&2 ;
+  printf "\\n" >&2 ;
   exit 1 ;
 fi
 
