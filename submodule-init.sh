@@ -23,7 +23,7 @@ for d in */ ; do
 
 	if [ ! -f "README.md" ]; then
 		touch README.md ;
-		echo "### ${d}" > Readme.md ;
+		echo "### ${d}" > README.md ;
 	fi
 
 	# need a commit to create submod
