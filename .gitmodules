@@ -13,3 +13,6 @@
 [submodule "MuNixPureShell"]
 	path = MuNixPureShell
 	url = git@github.com:mfwolffe/MuNixPureShell.git
+[submodule "MuNixSystem"]
+	path = MuNixSystem
+	url = git@github.com:mfwolffe/MuNixSystem.git
