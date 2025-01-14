@@ -1,11 +1,13 @@
 #!/bin/bash
 
+set -x
 
 remote_remover () {
   rm -rf "${1}"
   git config -f .gitmodules --remove-section "submodule.${1}"
   git add .gitmodules
   git config -f .git/config --remove-section "submodule.${1}"
+  rm -rf ".git/modules/${1}"
   git rm --cached "${1}"
 }
 
