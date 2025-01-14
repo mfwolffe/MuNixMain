@@ -4,9 +4,6 @@
 [submodule "MuNixArchiso"]
 	path = MuNixArchiso
 	url = git@github.com:mfwolffe/MuNixArchiso.git
-[submodule "MuNixFlakeContainer"]
-	path = MuNixFlakeContainer
-	url = git@github.com:mfwolffe/MuNixFlakeContainer.git
 [submodule "MuNixPureFlake"]
 	path = MuNixPureFlake
 	url = git@github.com:mfwolffe/MuNixPureFlake.git
