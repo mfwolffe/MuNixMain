@@ -1,15 +1,15 @@
 [submodule "MuNixAnsible"]
 	path = MuNixAnsible
-	url = ./MuNixAnsible/
+	url = git@github.com:mfwolffe/MuNixAnsible.git
 [submodule "MuNixArchiso"]
 	path = MuNixArchiso
-	url = ./MuNixArchiso/
+	url = git@github.com:mfwolffe/MuNixArchiso.git
 [submodule "MuNixFlakeContainer"]
 	path = MuNixFlakeContainer
-	url = ./MuNixFlakeContainer/
+	url = git@github.com:mfwolffe/MuNixFlakeContainer.git
 [submodule "MuNixPureFlake"]
 	path = MuNixPureFlake
-	url = ./MuNixPureFlake/
+	url = git@github.com:mfwolffe/MuNixPureFlake.git
 [submodule "MuNixPureShell"]
 	path = MuNixPureShell
-	url = ./MuNixPureShell/
+	url = git@github.com:mfwolffe/MuNixPureShell.git
