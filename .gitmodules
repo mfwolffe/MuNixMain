@@ -1,0 +1,15 @@
+[submodule "MuNixAnsible"]
+	path = MuNixAnsible
+	url = ./MuNixAnsible/
+[submodule "MuNixArchiso"]
+	path = MuNixArchiso
+	url = ./MuNixArchiso/
+[submodule "MuNixFlakeContainer"]
+	path = MuNixFlakeContainer
+	url = ./MuNixFlakeContainer/
+[submodule "MuNixPureFlake"]
+	path = MuNixPureFlake
+	url = ./MuNixPureFlake/
+[submodule "MuNixPureShell"]
+	path = MuNixPureShell
+	url = ./MuNixPureShell/
