@@ -5,6 +5,12 @@ remote_adder () {
 	git push -u origin trunk
 }
 
+# TODO @mfwolffe  need to iterate through submodules proper, 
+#                 not directories. This still works for 
+#                 adding remotes to modules w.out
+#                 but will begin to have unexpected behavior 
+#                 once directories are introduced which are *not*
+#                 submodules
 for d in */ ; do
 	# chop off trailing slash and store remote name
 	remote=`echo "${d}" | sed "s/\/$//"`
