@@ -25,10 +25,10 @@ for d in */ ; do
 	tput sgr0
 	
 	select yn in "Yes" "No"; do
-	    case $yn in
-	        Yes ) remote_adder $remote; break;;
-	        No ) exit;;
-	    esac
+    case $yn in
+      Yes ) remote_adder $remote; break;;
+      No ) exit;;
+    esac
 	done
 
 	popd >/dev/null
