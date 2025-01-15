@@ -44,5 +44,5 @@ I'm not sure of the status of Dr. Stewart's codespaces investigation, so this al
         1. ephemeral storage
         1. Resource monitoring and allocation
 
-
+See Sub Module README's for further elaboration, as well as for some of my notes during dev
 
